@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Arda Gül</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <style>
+
+  /* TITLE */
+
+ h1, h2, h3, a, p {
+    color: black;
+    text-decoration: none;
+    margin-bottom: .2rem;}
+
+#ardagul{
+   font-size: 100px;
+   cursor: default;
+   width: 40%}
+
+#visualdesigner{
+  font-size: 48px;
+  font-weight: bold;
+   cursor: default;
+   width: 30%}
+
+/* NAV */
+
+.navigationbar{
+  font-size: 30px;
+  width: 25%}
+
+.me {
+  font-size:20px;
+  width: 500px; }
+
+/* HOVER IMAGES - TITLE */
+
+ .illust1 {
+    position: absolute;
+    top: 20%;
+    left:55%;
+    display: none;
+    z-index: -1;}
+
+
+h1#ardagul:hover + .illust1 {
+      display: block}
+
+.illust2 {
+      position: absolute;
+      top: 30%;
+      left:55%;
+      display:none;
+      z-index: -1;}
+
+h2#visualdesigner:hover + .illust2 {
+        display: block}
+
+.illust5 {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+
+}
+
+/* HOVER IMAGES - INVISIBLE 1 */
+
+   .invisibleimage1{
+     position: absolute;
+     height: 30px;
+     width: 30px;
+     top: 25%;
+     right: 25%;
+     background-color: transparent;
+     z-index: -1;}
+
+  .invisiblehover1 {
+    font-size: 100px;
+    opacity: 0;
+    cursor: default;}
+
+    .illust3 {
+    position: absolute;
+    top: 30%;
+    left:55%;
+    display:none;}
+
+    .invisiblehover1:hover + .illust3 {
+      display:block;}
+
+/* HOVER IMAGES - INVISIBLE 2 */
+
+.invisibleimage2{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  bottom: 25%;
+  right: 45%;
+  background-color: transparent;
+  z-index: 1;}
+
+.invisiblehover2 {
+ font-size: 100px;
+ opacity: 0;
+ cursor: default;}
+
+ .illust4 {
+ position: absolute;
+ bottom: 100%;
+ left:55%;
+ display:none;}
+
+ .invisiblehover2:hover + .illust4{
+   display:block;}
+
+
+
+
+
+ </style>
+  </head>
+
+
+
+  <body>
+
+
+
+<div class="container mt-5 pt-5">
+<div class="container">
+
+  <div class="name">
+    <h1 id="ardagul">Arda Gül</h1>
+    <img src="illustration/disegnini3.png" class="illust1">
+  </div>
+
+  <div class="title">
+     <h2 id="visualdesigner">Visual Designer</h2>
+     <img src="illustration/disegnini5.png" class="illust2">
+  </div>
+
+</div>
+
+<div class="container">
+  <div class="navigationbar">
+
+<ul>
+
+  <li><div class="aboutme">
+    <details>
+      <summary> &#x021B3; About Me </summary>
+      <ul>
+       <li class="me"> I'm a 23 year old designer from Istanbul, Turkey. Right now I'm located in Turin, Italy for my studies in Visual Communication and Design. I particularly like designing covers and posters and I built this website to showcase my portfolio. <img src="illustration/disegnini6.png" class="illust5"> </li>
+
+     </ul>
+      </details>
+  </div></li>
+
+ <li><div class="work">
+  <details>
+
+    <summary> &#x021B3; Work </summary>
+
+     <ul class="navlist">
+
+    <li><a href="graphicdesign.html">Graphic Design &raquo</a></li>
+    <li><a href="photography.html"> Photography &raquo</a></li>
+    <li><a href="illustration.html">Illustration &raquo</a></li>
+
+     </ul>
+
+  </details></div></li>
+
+  <li><div class="contact">
+    <details>
+
+      <summary> &#x021B3; Contact </summary>
+
+       <ul class="contactlist">
+         <li><a href="https://www.instagram.com/ardagul23/"> Instagram &raquo</a> </li>
+         <li><a href="https://www.linkedin.com/in/arda-g%C3%BCl-3a1358208/"> LinkedIn &raquo</a> </li>
+         <li>ardagul23@hotmail.com</li>
+         <li> +393471338258 </li>
+       </ul>
+
+    </details>
+  </div></li>
+
+</ul>
+
+
+
+
+
+</div>
+ </div>
+
+ <div class="invisibleimage1">
+   <p class="invisiblehover1"> &bull </p>
+   <img src="illustration/disegnini1.png" class="illust3">
+</div>
+
+ <div class="invisibleimage2">
+ <p class="invisiblehover2"> &bull </p>
+ <img src="illustration/disegnini2.png" class="illust4">
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+  </body>
+</html>
